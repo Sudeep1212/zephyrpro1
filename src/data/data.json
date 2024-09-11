@@ -1,0 +1,458 @@
+[
+  {
+    "id": "1",
+    "name": "Garba Workshop",
+    "entryFee": 200,
+    "prizePool": null,
+    "committees": ["CSI"],
+    "date": "October 2-3",
+    "eventHeads": [
+      {
+        "name": "John Doe",
+        "phone": "1234567890"
+      },
+      {
+        "name": "Jane Doe",
+        "phone": "0987654321"
+      }
+    ],
+    "registrationLink": "https://google.com"
+  },
+  {
+    "id": "2",
+    "name": "Valorant Tournament",
+    "entryFee": 200,
+    "prizePool": 2000,
+    "committees": ["CSI", "ACM"],
+    "date": "October 2",
+    "eventHeads": [
+      {
+        "name": "Alex Smith",
+        "phone": "2345678901"
+      },
+      {
+        "name": "Emily Jones",
+        "phone": "8765432109"
+      }
+    ],
+    "registrationLink": "https://google.com"
+  },
+  {
+    "id": "3",
+    "name": "Hackathon",
+    "entryFee": 300,
+    "prizePool": 5000,
+    "committees": ["ACM"],
+    "date": "October 2-4",
+    "eventHeads": [
+      {
+        "name": "Sarah Connor",
+        "phone": "3456789012"
+      },
+      {
+        "name": "Michael Scott",
+        "phone": "5678901234"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "4",
+    "name": "AI Workshop",
+    "entryFee": 150,
+    "prizePool": null,
+    "committees": ["ACMSIGAI"],
+    "date": "October 3",
+    "eventHeads": [
+      {
+        "name": "Emma Watson",
+        "phone": "6789012345"
+      },
+      {
+        "name": "Daniel Radcliffe",
+        "phone": "7890123456"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "5",
+    "name": "Robotics Competition",
+    "entryFee": 250,
+    "prizePool": 3000,
+    "committees": ["IEEE"],
+    "date": "October 2-3",
+    "eventHeads": [
+      {
+        "name": "Tony Stark",
+        "phone": "7890123456"
+      },
+      {
+        "name": "Pepper Potts",
+        "phone": "8901234567"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "6",
+    "name": "Cybersecurity Workshop",
+    "entryFee": 200,
+    "prizePool": null,
+    "committees": ["OWASP"],
+    "date": "October 3-4",
+    "eventHeads": [
+      {
+        "name": "Bruce Wayne",
+        "phone": "9012345678"
+      },
+      {
+        "name": "Selina Kyle",
+        "phone": "0123456789"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "7",
+    "name": "IoT Expo",
+    "entryFee": 100,
+    "prizePool": 1500,
+    "committees": ["TSDW"],
+    "date": "October 2",
+    "eventHeads": [
+      {
+        "name": "Peter Parker",
+        "phone": "0123456789"
+      },
+      {
+        "name": "Mary Jane",
+        "phone": "1234567890"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "8",
+    "name": "Data Science Seminar",
+    "entryFee": 180,
+    "prizePool": null,
+    "committees": ["ISTE"],
+    "date": "October 4",
+    "eventHeads": [
+      {
+        "name": "Clark Kent",
+        "phone": "1234567891"
+      },
+      {
+        "name": "Lois Lane",
+        "phone": "2345678902"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "9",
+    "name": "Cloud Computing Workshop",
+    "entryFee": 220,
+    "prizePool": null,
+    "committees": ["ACMSIGAI"],
+    "date": "October 2-4",
+    "eventHeads": [
+      {
+        "name": "Natasha Romanoff",
+        "phone": "2345678902"
+      },
+      {
+        "name": "Clint Barton",
+        "phone": "3456789013"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "10",
+    "name": "Blockchain Bootcamp",
+    "entryFee": 250,
+    "prizePool": 4000,
+    "committees": ["CSI"],
+    "date": "October 3",
+    "eventHeads": [
+      {
+        "name": "Wade Wilson",
+        "phone": "3456789013"
+      },
+      {
+        "name": "Colossus",
+        "phone": "4567890123"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "11",
+    "name": "Quantum Computing Basics",
+    "entryFee": 300,
+    "prizePool": null,
+    "committees": ["IEEE"],
+    "date": "October 2",
+    "eventHeads": [
+      {
+        "name": "James Bond",
+        "phone": "4567890123"
+      },
+      {
+        "name": "Q",
+        "phone": "5678901234"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "12",
+    "name": "Web Development Bootcamp",
+    "entryFee": 180,
+    "prizePool": null,
+    "committees": ["CSI"],
+    "date": "October 3-4",
+    "eventHeads": [
+      {
+        "name": "Sherlock Holmes",
+        "phone": "5678901234"
+      },
+      {
+        "name": "John Watson",
+        "phone": "6789012345"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "13",
+    "name": "Augmented Reality Showcase",
+    "entryFee": 250,
+    "prizePool": 2000,
+    "committees": ["ACMSIGAI"],
+    "date": "October 2-3",
+    "eventHeads": [
+      {
+        "name": "Bruce Banner",
+        "phone": "6789012345"
+      },
+      {
+        "name": "Natasha Romanoff",
+        "phone": "7890123456"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "14",
+    "name": "Machine Learning Workshop",
+    "entryFee": 200,
+    "prizePool": null,
+    "committees": ["TSDW"],
+    "date": "October 4",
+    "eventHeads": [
+      {
+        "name": "Gandalf",
+        "phone": "7890123456"
+      },
+      {
+        "name": "Frodo Baggins",
+        "phone": "8901234567"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "15",
+    "name": "Ethical Hacking Contest",
+    "entryFee": 250,
+    "prizePool": 3500,
+    "committees": ["OWASP"],
+    "date": "October 2",
+    "eventHeads": [
+      {
+        "name": "Lara Croft",
+        "phone": "8901234567"
+      },
+      {
+        "name": "Nathan Drake",
+        "phone": "9012345678"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "16",
+    "name": "Data Visualization Challenge",
+    "entryFee": 150,
+    "prizePool": null,
+    "committees": ["ISTE"],
+    "date": "October 2-4",
+    "eventHeads": [
+      {
+        "name": "James Kirk",
+        "phone": "9012345678"
+      },
+      {
+        "name": "Spock",
+        "phone": "0123456789"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "17",
+    "name": "Robotics Workshop",
+    "entryFee": 300,
+    "prizePool": null,
+    "committees": ["IEEE"],
+    "date": "October 3-4",
+    "eventHeads": [
+      {
+        "name": "Hermione Granger",
+        "phone": "5678901234"
+      },
+      {
+        "name": "Harry Potter",
+        "phone": "6789012345"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "18",
+    "name": "Cloud Security Seminar",
+    "entryFee": 250,
+    "prizePool": null,
+    "committees": ["OWASP"],
+    "date": "October 4",
+    "eventHeads": [
+      {
+        "name": "Samwise Gamgee",
+        "phone": "6789012345"
+      },
+      {
+        "name": "Gollum",
+        "phone": "7890123456"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "19",
+    "name": "IoT Challenge",
+    "entryFee": 200,
+    "prizePool": 2500,
+    "committees": ["ACMSIGAI"],
+    "date": "October 2-3",
+    "eventHeads": [
+      {
+        "name": "Indiana Jones",
+        "phone": "7890123456"
+      },
+      {
+        "name": "Marion Ravenwood",
+        "phone": "8901234567"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "20",
+    "name": "AI Debate",
+    "entryFee": 100,
+    "prizePool": null,
+    "committees": ["ISTE"],
+    "date": "October 3",
+    "eventHeads": [
+      {
+        "name": "James Bond",
+        "phone": "9012345678"
+      },
+      {
+        "name": "Moneypenny",
+        "phone": "0123456789"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "21",
+    "name": "Box Cricket Tournament",
+    "entryFee": 150,
+    "prizePool": 1000,
+    "committees": ["CSI"],
+    "date": "October 2-3",
+    "eventHeads": [
+      {
+        "name": "Steve Rogers",
+        "phone": "2345678901"
+      },
+      {
+        "name": "Natasha Romanoff",
+        "phone": "3456789012"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "22",
+    "name": "Box Football Championship",
+    "entryFee": 200,
+    "prizePool": 1500,
+    "committees": ["TSDW"],
+    "date": "October 3",
+    "eventHeads": [
+      {
+        "name": "Bruce Wayne",
+        "phone": "4567890123"
+      },
+      {
+        "name": "Clark Kent",
+        "phone": "5678901234"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "23",
+    "name": "CODM Tournament",
+    "entryFee": 250,
+    "prizePool": 3000,
+    "committees": ["CSI", "ACM"],
+    "date": "October 3",
+    "eventHeads": [
+      {
+        "name": "Peter Parker",
+        "phone": "6789012345"
+      },
+      {
+        "name": "Mary Jane",
+        "phone": "7890123456"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  },
+  {
+    "id": "24",
+    "name": "PUBG Challenge",
+    "entryFee": 300,
+    "prizePool": 5000,
+    "committees": ["ACMSIGAI", "OWASP"],
+    "date": "October 2-4",
+    "eventHeads": [
+      {
+        "name": "Tony Stark",
+        "phone": "8901234567"
+      },
+      {
+        "name": "Pepper Potts",
+        "phone": "9012345678"
+      }
+    ],
+    "registrationLink": "https://example.com"
+  }
+]
