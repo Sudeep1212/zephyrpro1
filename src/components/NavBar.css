@@ -1,0 +1,37 @@
+.navbar-container {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+.content {
+    margin-top: 60px; /* Adjust this value based on navbar height */
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li {
+    margin: 0; /* Remove default margin */
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px; /* Add padding for better click area */
+    border-radius: 5px; /* Add rounded corners for a modern look */
+    transition: background-color 0.3s ease-in-out; /* Add smooth transition for hover effect */
+}
+
+.navbar ul li a:hover {
+    background-color: #555;
+}

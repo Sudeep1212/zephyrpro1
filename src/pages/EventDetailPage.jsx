@@ -26,7 +26,7 @@ const EventDetailPage = () => {
         Register Here
       </a>
       <br />
-      <Link to="/">Back to Events</Link>
+      <Link to="/events">Back to Events</Link>
     </div>
   );
 };
