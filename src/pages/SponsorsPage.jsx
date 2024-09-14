@@ -1,16 +1,16 @@
 import React from 'react';
 
 const sponsors = [
-  { name: "Sponsor 1", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 2", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 3", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 4", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 5", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 6", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 7", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 8", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 9", image: "/src/assets/event1.jpeg" },
-  { name: "Sponsor 10", image: "/src/assets/event1.jpeg" },
+  { name: "Sponsor 1", image: "/event1.png" },
+  { name: "Sponsor 2", image: "/event1.png" },
+  { name: "Sponsor 3", image: "/event1.png" },
+  { name: "Sponsor 4", image: "/event1.png" },
+  { name: "Sponsor 5", image: "/event1.png" },
+  { name: "Sponsor 6", image: "/event1.png" },
+  { name: "Sponsor 7", image: "/event1.png" },
+  { name: "Sponsor 8", image: "/event1.png" },
+  { name: "Sponsor 9", image: "/event1.png" },
+  { name: "Sponsor 10", image: "/event1.png" },
 ];
 
 const SponsorsPage = () => {
