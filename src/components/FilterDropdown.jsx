@@ -11,15 +11,16 @@ const FilterDropdown = ({ onFilter }) => {
 
   return (
     <select
-      onChange={handleChange}
-      className="border border-gray-300 bg-white text-black py-2 px-4 rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500"
-    >
-      {committees.map((committee) => (
-        <option key={committee} value={committee} className="text-black">
-          {committee}
-        </option>
-      ))}
-    </select>
+  onChange={handleChange}
+  className="border border-[#854ce6] border-s-2 bg-transparent text-white py-2 px-4 rounded-lg shadow focus:outline-none focus:ring-1 focus:ring-[#854ce6] focus:border-[#854ce6] "
+>
+  {committees.map((committee) => (
+    <option key={committee} value={committee} className="text-black">
+      {committee}
+    </option>
+  ))}
+</select>
+
   );
 };
 
