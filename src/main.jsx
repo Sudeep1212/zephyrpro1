@@ -12,7 +12,7 @@ const root = createRoot(document.getElementById('root'));
 
 root.render(
   <Router>
-    <div>
+    <div className=''>
       <NavBar /> {/* Add NavBar here to ensure it's on top of all pages */}
 
       <div className="content">

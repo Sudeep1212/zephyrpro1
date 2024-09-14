@@ -28,12 +28,12 @@ const AllEventsPage = () => {
   };
 
   return (
-    <div className="all-events-page">
-      <div className="search-filter-container">
+    <div className="p-5">
+      <div className="flex justify-between items-center mb-5">
         <SearchBar onSearch={handleSearch} />
         <FilterDropdown onFilter={handleFilter} />
       </div>
-      <div className="event-list">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {filteredEvents.map(event => (
           <EventCard key={event.id} event={event} />
         ))}

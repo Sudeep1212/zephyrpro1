@@ -1,5 +1,4 @@
 import React from 'react';
-import './SponsorsPage.css'; // Custom styles for cards
 
 const sponsors = [
   { name: "Sponsor 1", image: "/src/assets/event1.jpeg" },
@@ -16,10 +15,10 @@ const sponsors = [
 
 const SponsorsPage = () => {
   return (
-    <div className="sponsors-page">
+    <div className="flex flex-wrap justify-center gap-5">
       {sponsors.map((sponsor, index) => (
-        <div key={index} className="sponsor-card">
-          <img src={sponsor.image} alt={sponsor.name} className="sponsor-image" />
+        <div key={index} className="text-center w-36">
+          <img src={sponsor.image} alt={sponsor.name} className="w-24 h-24 object-cover mx-auto" />
           <h3>{sponsor.name}</h3>
         </div>
       ))}
