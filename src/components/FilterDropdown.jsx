@@ -10,9 +10,12 @@ const FilterDropdown = ({ onFilter }) => {
   };
 
   return (
-    <select onChange={handleChange} className='text-black'>
+    <select
+      onChange={handleChange}
+      className="border border-gray-300 bg-white text-black py-2 px-4 rounded-lg shadow focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500"
+    >
       {committees.map((committee) => (
-        <option key={committee} value={committee} className=' text-black'>
+        <option key={committee} value={committee} className="text-black">
           {committee}
         </option>
       ))}

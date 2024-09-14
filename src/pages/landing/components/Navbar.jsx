@@ -14,6 +14,7 @@ const Nav = styled.div`
   top: 0;
   z-index: 10;
   color: white;
+  z-index: 11;
 `;
 
 const NavbarContainer = styled.div`
@@ -72,6 +73,28 @@ const MobileIcon = styled.div`
   }
 `;
 
+// const MobileMenu = styled.ul`
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: start;
+//   gap: 16px;
+//   padding: 0 6px;
+//   list-style: none;
+//   padding: 12px 40px 24px 40px;
+//   background: ${({ theme }) => theme.card_light + 99};
+//   position: absolute;
+//   top: 80px;
+//   right: 0;
+
+//   transition: all 0.6s ease-in-out;
+//   transform: ${({ isOpen }) =>
+//     isOpen ? "translateX(0)" : "translateX(-100%)"};
+//   border-radius: 0 0 20px 20px;
+//   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+//   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+//   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
+// `;
 const MobileMenu = styled.ul`
   width: 100%;
   display: flex;
@@ -81,7 +104,7 @@ const MobileMenu = styled.ul`
   padding: 0 6px;
   list-style: none;
   padding: 12px 40px 24px 40px;
-  background: ${({ theme }) => theme.card_light + 99};
+  background: #090917; /* Same background color as Nav */
   position: absolute;
   top: 80px;
   right: 0;
@@ -94,6 +117,7 @@ const MobileMenu = styled.ul`
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
