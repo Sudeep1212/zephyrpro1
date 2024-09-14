@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
 import EventDetailPage from './pages/EventDetailPage';
 import AllEventsPage from './pages/AllEventsPage';
 import SponsorsPage from './pages/SponsorsPage';
+import HomePage from './pages/landing/HomePage';
 
 function App() {
   return (

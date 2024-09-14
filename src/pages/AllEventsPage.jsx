@@ -46,7 +46,7 @@ const AllEventsPage = () => {
   };
 
   return (
-    <div className="p-5">
+    <div className="p-5 md:p-24">
       <div className="flex justify-between items-center mb-5">
         <SearchBar onSearch={handleSearch} />
         <FilterDropdown onFilter={handleFilter} />
