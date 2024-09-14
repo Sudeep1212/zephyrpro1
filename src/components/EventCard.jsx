@@ -1,14 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../App.css'; // Ensure styles are set here or in another CSS file
 
-const EventCard = ({ event }) => {
+const EventCard = ({ event, handleOpenModal }) => {
   return (
-    <div className="event-card">
-      <img src="/src/assets/event1.jpeg" alt={event.name} className="event-image" />
-      <h3>{event.name}</h3>
-      <p>- {event.committees.join(", ")}</p>
-      <Link to={`/events/${event.id}`}>View Details</Link>
+    <div className="event-card p-4 bg-white shadow-lg rounded-lg">
+      <img src="/src/assets/event1.jpeg" alt={event.name} className="w-full h-40 object-cover mb-4" />
+      <h3 className="text-xl font-bold">{event.name}</h3>
+      <p className="text-gray-600">{event.committees.join(", ")}</p>
+      <button
+        className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+        onClick={() => handleOpenModal(event)}
+      >
+        View Details
+      </button>
     </div>
   );
 };
