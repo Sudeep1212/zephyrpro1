@@ -10,9 +10,7 @@ import StartCanvas from "./components/canvas/Stars";
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
-import AllEventsPage from "../AllEventsPage"; // Import AllEventsPage
-import StyledStarsCanvas from "./canvas/Stars";
-import HeroBgAnimation from "./HeroBgAnimation/HeroBgAnimation";
+import SponsorsPage from "../SponsorsPage";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -37,24 +35,24 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
-
-function EventsAll() {
+function Sponsorspage() {
   return (
     <ThemeProvider theme={darkTheme}>
-      <Body>
-        <StartCanvas />
-        {/* <Navbar /> */}
-        {/* <Hero /> */}
-        {/* <Projects /> */}
-        <AllEventsPage /> {/* Add AllEventsPage here */}
-        {/* <Wrapper>
-          <Education />
-          <Contact />
-        </Wrapper> */}
-        <Footer />
-      </Body>
+        <Body>
+          <StartCanvas />
+          <div>
+            <SponsorsPage/>
+            {/* <Hero /> */}
+            {/* <Projects /> */}
+            {/* <Wrapper>
+              <Education />
+              <Contact />
+            </Wrapper> */}
+            <Footer />
+          </div>
+        </Body>
     </ThemeProvider>
   );
 }
 
-export default EventsAll;
+export default Sponsorspage;

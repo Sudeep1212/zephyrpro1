@@ -15,9 +15,9 @@ const sponsors = [
 
 const SponsorsPage = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-5">
+    <div className="flex flex-wrap justify-center gap-5 p-5 md:p-24 md:pt-16">
       {sponsors.map((sponsor, index) => (
-        <div key={index} className="text-center w-36">
+        <div key={index} className="text-center w-36 font-semibold">
           <img src={sponsor.image} alt={sponsor.name} className="w-24 h-24 object-cover mx-auto" />
           <h3>{sponsor.name}</h3>
         </div>

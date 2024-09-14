@@ -14,7 +14,7 @@ const SearchBar = ({ onSearch }) => {
       placeholder="Search events..."
       value={searchTerm}
       onChange={handleChange}
-      className="border border-gray-300 text-black py-2 px-4 rounded-lg w-64 shadow focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-500"
+      className="border border-[#854ce6] border-s-2 bg-transparent text-white py-2 px-4 rounded-lg w-64 shadow focus:outline-none "
     />
   );
 };
