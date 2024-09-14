@@ -85,7 +85,7 @@ const Title = styled.div`
   }
 
   @media (max-width: 960px) {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 48px;
     margin-bottom: 8px;
   }
@@ -252,7 +252,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="hero" />
+                  <Img src={HeroImg} alt="hero"  className=" my-10 mt-28 md:my-0 md:ml-10"/>
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

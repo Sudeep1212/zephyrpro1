@@ -70,7 +70,7 @@ const Button = styled.a`
 const EventCard = ({ event, handleOpenModal, handleRegister }) => {
   return (
     <Card>
-      <Image src="/src/assets/event1.jpeg" alt={event.name} />
+      <Image src="/event1.png" alt={event.name} />
       <Content>
         <Title>{event.name}</Title>
         <Committees>{event.committees.join(', ')}</Committees>
