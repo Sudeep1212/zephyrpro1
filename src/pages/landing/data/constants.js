@@ -276,7 +276,69 @@ export const skills = [
   },
 ];
 
+
+
+
 export const experiences = [
+  {
+    id: 0,
+    role: "The Discovery of the Wheel and Development of Infrastructure",
+    date: "Before Everything",
+    company: "ASCE",
+    desc: "Marking the beginning of a new era in transportation and engineering, the discovery of the wheel revolutionized the way people and goods moved, enabling the construction of roads, bridges, and other critical infrastructure.",
+  },
+  {
+    id: 1,
+    role: "The Industrial Revolution",
+    date: "18th Century",
+    company: "ASME",
+    desc: "Transforming the manufacturing process and paving the way for mass production and technological advancements, the Industrial Revolution had a profound impact on the economy, society, and the environment.",
+  },
+  {
+    id: 2,
+    role: "The Invention of the Telegraph and Telephone",
+    date: "19th Century",
+    company: "IETE",
+    desc: "Revolutionizing communication and laying the foundation for modern telecommunications, the invention of the telegraph and telephone enabled rapid transmission of information over long distances, transforming business, politics, and personal relationships.",
+  },
+  {
+    id: 3,
+    role: "The Advent of Radio and Television",
+    date: "20th Century",
+    company: "IEEE",
+    desc: "Transforming the entertainment and broadcasting industries and changing the way people consume information, the advent of radio and television brought news, music, and entertainment into homes around the world.",
+  },
+  {
+    id: 4,
+    role: "The Birth of the Internet",
+    date: " Late 20th Century",
+    company: "ACM",
+    desc: "Connecting the world and enabling global communication, information sharing, and e-commerce, the birth of the internet has had a profound impact on modern society, transforming the way we live, work, and interact with each other.",
+  },
+  {
+    id: 5,
+    role: "The Rise of Artificial Intelligence",
+    date: "21st Century",
+    company: "CSI",
+    desc: "Enabling machines to learn, reason, and interact with humans, the rise of artificial intelligence is transforming industries and revolutionizing the way we live and work, from healthcare and finance to transportation and education.",
+  },
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const experiences1 = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",

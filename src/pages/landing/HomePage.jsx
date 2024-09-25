@@ -46,6 +46,7 @@ function HomePage() {
               <Education />
               <Contact />
             </Wrapper> */}
+            <Experience />
             <Footer />
           </div>
         </Body>

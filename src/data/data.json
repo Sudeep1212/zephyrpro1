@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "img":"/src/assets/event1.jpeg",
     "name": "Garba Workshop",
     "entryFee": 200,
     "prizePool": null,
@@ -20,6 +21,7 @@
   },
   {
     "id": "2",
+    "img":"/src/assets/event1.jpeg",
     "name": "Valorant Tournament",
     "entryFee": 200,
     "prizePool": 2000,
@@ -39,6 +41,7 @@
   },
   {
     "id": "3",
+    "img":"/src/assets/event1.jpeg",
     "name": "Hackathon",
     "entryFee": 300,
     "prizePool": 5000,
@@ -58,6 +61,7 @@
   },
   {
     "id": "4",
+    "img":"/src/assets/event1.jpeg",
     "name": "AI Workshop",
     "entryFee": 150,
     "prizePool": null,
@@ -77,6 +81,7 @@
   },
   {
     "id": "5",
+    "img":"/src/assets/event1.jpeg",
     "name": "Robotics Competition",
     "entryFee": 250,
     "prizePool": 3000,
@@ -96,6 +101,7 @@
   },
   {
     "id": "6",
+    "img":"/src/assets/event1.jpeg",
     "name": "Cybersecurity Workshop",
     "entryFee": 200,
     "prizePool": null,
@@ -115,6 +121,8 @@
   },
   {
     "id": "7",
+    "img":"/src/assets/event1.jpeg",
+
     "name": "IoT Expo",
     "entryFee": 100,
     "prizePool": 1500,
@@ -134,6 +142,8 @@
   },
   {
     "id": "8",
+    "img":"/src/assets/event1.jpeg",
+
     "name": "Data Science Seminar",
     "entryFee": 180,
     "prizePool": null,
@@ -153,6 +163,7 @@
   },
   {
     "id": "9",
+    "img":"/src/assets/event1.jpeg",
     "name": "Cloud Computing Workshop",
     "entryFee": 220,
     "prizePool": null,
