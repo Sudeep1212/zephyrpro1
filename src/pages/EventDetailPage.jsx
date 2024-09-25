@@ -176,7 +176,7 @@ const EventDetailPage = ({ event, closeModal }) => {
 
         {/* Event details */}
         <Title>{event.name}</Title>
-        <EventImage src="/src/assets/event1.jpeg" alt={event.name} />
+        <EventImage src="./src/assets/event1.jpeg" alt={event.name} />
         
         <EventDetails>
           <p><strong>Entry Fee:</strong> {event.entryFee} Rs</p>
